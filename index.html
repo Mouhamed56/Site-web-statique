@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NovaComm — Agence de communication digitale</title>
+  <meta name="description" content="NovaComm — agence de communication digitale : branding, web, social media, contenu vidéo et campagnes." />
+  <link rel="stylesheet" href="css\styles.css" />
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="#home" class="brand" aria-label="Accueil NovaComm">
+        <svg width="34" height="34" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M2 12l10-8 10 8-10 8z"></path></svg>
+        <span class="brand-text">NovaComm</span>
+      </a>
+
+      <nav class="main-nav" role="navigation" aria-label="Navigation principale">
+        <a href="#home" class="nav-link">Accueil</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#portfolio" class="nav-link">Portfolio</a>
+        <a href="#testimonials" class="nav-link">Témoignages</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <button id="menu-btn" class="menu-btn" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main id="home" class="main">
+    <!-- HERO -->
+    <section class="hero container">
+      <div class="hero-content">
+        <div class="eyebrow">Agence digitale • Branding • Web • Social</div>
+        <h1>Nous transformons les idées en expériences digitales mémorables</h1>
+        <p class="lead">Conception de sites, identité visuelle, campagnes sociales et contenu vidéo. Stratégie pensée pour la croissance.</p>
+        <div class="hero-cta">
+          <a href="#contact" class="btn-primary">Demander un devis</a>
+          <a href="#portfolio" class="btn-ghost">Voir le portfolio</a>
+        </div>
+        <ul class="trust">
+          <li><strong>+120</strong> projets</li>
+          <li><strong>+50</strong> clients</li>
+          <li><strong>10</strong> ans d'expérience</li>
+        </ul>
+      </div>
+
+      <div class="hero-image" aria-hidden="true">
+        <div class="mockup-frame">
+          <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1200&auto=format&fit=crop" alt="Illustration agence NovaComm">
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="container section">
+      <h2>Nos services</h2>
+      <p class="section-sub">Solutions sur-mesure pour marques ambitieuses.</p>
+      <div class="services-grid">
+        <article class="service">
+          <div class="service-icon">🎨</div>
+          <h3>Branding & identité</h3>
+          <p>Logos, chartes graphiques, storytelling de marque.</p>
+        </article>
+        <article class="service">
+          <div class="service-icon">💻</div>
+          <h3>Web & e-commerce</h3>
+          <p>Sites performants, SEO-friendly et optimisés mobile.</p>
+        </article>
+        <article class="service">
+          <div class="service-icon">📣</div>
+          <h3>Social & Ads</h3>
+          <p>Stratégies payantes et organiques pour engagement & conversion.</p>
+        </article>
+        <article class="service">
+          <div class="service-icon">🎬</div>
+          <h3>Contenu & Video</h3>
+          <p>Production vidéo, motion design et contenu natif réseaux.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="container section">
+      <div class="section-head">
+        <h2>Portfolio</h2>
+        <div class="filters" role="tablist" aria-label="Filtres portfolio">
+          <button class="filter active" data-filter="all">Tous</button>
+          <button class="filter" data-filter="branding">Branding</button>
+          <button class="filter" data-filter="web">Web</button>
+          <button class="filter" data-filter="social">Social</button>
+        </div>
+      </div>
+
+      <div class="portfolio-grid" id="portfolio-grid">
+        <article class="portfolio-item" data-category="branding">
+          <img src="https://images.unsplash.com/photo-1506102383580-46e0d50d4f04?q=80&w=1000&auto=format&fit=crop" alt="Projet branding">
+          <div class="p-body">
+            <h4>Identité — Café Lumière</h4>
+            <p>Logo & charte</p>
+          </div>
+        </article>
+
+        <article class="portfolio-item" data-category="web">
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1000&auto=format&fit=crop" alt="Projet web">
+          <div class="p-body">
+            <h4>Site e-commerce — Aura</h4>
+            <p>Design & dev</p>
+          </div>
+        </article>
+
+        <article class="portfolio-item" data-category="social">
+          <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?q=80&w=1000&auto=format&fit=crop" alt="Projet social">
+          <div class="p-body">
+            <h4>Campagne — UrbanFit</h4>
+            <p>Social & contenu</p>
+          </div>
+        </article>
+
+        <article class="portfolio-item" data-category="web">
+          <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1000&auto=format&fit=crop" alt="Projet web 2">
+          <div class="p-body">
+            <h4>Vitrine — Atelier B</h4>
+            <p>UX & performance</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="container section">
+      <h2>Témoignages</h2>
+      <div class="testimonials-grid">
+        <blockquote class="testimonial">
+          <p>« NovaComm a transformé notre image de marque — croissance visible en 3 mois. »</p>
+          <cite>— Claire, Café Lumière</cite>
+        </blockquote>
+
+        <blockquote class="testimonial">
+          <p>« Équipe professionnelle et créative, ROI sur nos campagnes. »</p>
+          <cite>— Marc, Aura</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="container section">
+      <h2>Contactez-nous</h2>
+      <p class="section-sub">Parlons de votre projet — réponse sous 48h.</p>
+
+      <div class="contact-grid">
+        <form id="contact-form" class="contact-form" aria-label="Formulaire de contact">
+          <label>Nom<input type="text" id="name" required></label>
+          <label>Email<input type="email" id="email" required></label>
+          <label>Message<textarea id="message" rows="5" required></textarea></label>
+          <div class="form-actions">
+            <button type="submit" class="btn-primary">Envoyer</button>
+            <button type="reset" class="btn">Réinitialiser</button>
+          </div>
+          <p id="form-status" role="status" aria-live="polite"></p>
+        </form>
+
+        <aside class="contact-info" aria-label="Informations de contact">
+          <h3>Infos</h3>
+          <p><strong>Email:</strong> hello@novacomm.example</p>
+          <p><strong>Téléphone:</strong> +221 77 000 00 00</p>
+          <p><strong>Adresse:</strong> Dakar, Sénégal</p>
+          <div class="socials">
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="LinkedIn">LI</a>
+            <a href="#" aria-label="Facebook">FB</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> NovaComm — Agence de communication digitale</small>
+    </div>
+  </footer>
+
+  <script src="js\app.js"></script>
+</body>
+</html>
